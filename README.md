@@ -6,9 +6,9 @@
 * 🔺- عوفه مفتوح وفتح ترمنال لاخ وخلي 👇
 * sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 * 🔺- وراهه 👇
-* git clone https://github.com/moodlIMyIl/DEVTSHAKE.git
+* git clone https://github.com/DevMoataz/Maestro.git
 * 🔺- وراهه👇
-* cd DEVTSHAKE
+* cd Maestro
 * 🔺- وراهه👇
 * chmod +x launch.sh
 * 🔺- وراهه👇
@@ -21,9 +21,9 @@
 * 🔺- ودوس انتر 
 * 🔺- وسوي رن من ملف لانج
 * 🔺- بعد متسوي رن افتح ترمنال جديد واكتب 
-* cd DEVTSHAKE
+* cd Maestro
 * 🔺- انتر وبعدها هل امر 
-* bash DEVTSHAKE.sh -t
+* bash Maestro.sh -t
 * 🔺- انتظر 5 ثواني يشتغل بوت 
 * هذا ملف يقلل وكفات بوت :)
 * 🔺-----------------------------🔺
