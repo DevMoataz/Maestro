@@ -175,5 +175,5 @@ echo ""
     rm gban1
     
   fi
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./DevTSHAKE/DevTSHAKE.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./Maestro/Maestro.lua -l 1 -E $@
 fi
