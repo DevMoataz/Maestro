@@ -2,7 +2,7 @@ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
-require("./DevTSHAKE/utils")
+require("./Maestro/utils")
 
 local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
 VERSION = assert(f:read('*a'))
@@ -249,7 +249,7 @@ function create_config( )
     "lock_media",
     "warn_edit",
     },
-    sudo_users = {67369633},--Sudo users
+    sudo_users = {306815582},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[
@@ -339,7 +339,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 306815582
 now = os.time()
 math.randomseed(now)
 started = false
