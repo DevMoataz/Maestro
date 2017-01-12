@@ -4,7 +4,7 @@
 ▀▄ ▄▀    BY 💯-Đєⱴ💀: @devmaestr0             ▀▄ ▄▀ 
 ▀▄ ▄▀     BY 💯-Đєⱴ 💀: @MaEsTrO_0            ▀▄ ▄▀ 
 ▀▄ ▄▀ JUST WRITED BY MAESTRO                ▀▄ ▄▀   
-▀▄ ▄▀       broadcast  :                    ▀▄ ▄▀ 
+▀▄ ▄▀                                       ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 —]]
 local function run(msg, matches)
