@@ -5,7 +5,8 @@
      / / \ \/ \ \ / ___ \| |___\__ \ | | | | \ \| |__| |    Đєⱴ ฿๏ͳ💀: @iqMaestroBot
     /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @
                    Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro
-—]]                                                                                                                                                                                                                                                                               local function run (msg, matches)
+—]] 
+local function run (msg, matches)
 local data = load_data(_config.moderation.data)
    if matches[1] == 'chat_add_user_link' then
         local user_id = msg.from.id
