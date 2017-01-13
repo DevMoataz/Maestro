@@ -8,7 +8,7 @@
 —]]
 do
     
-local function mohammedboss(msg,matches)
+local function maestro(msg,matches)
     if matches[1] == "chat_add_user"  then 
       return "اهلا وسهلا كبد عمري نورت 😻🙊\n"..msg.to.title.."\n".."🆔 ايديك  "..msg.from.id.."\n".."🌀#معرفك @"..(msg.action.user.username or "....... " ).."\n".."👥 ايدي المجموعة  "..msg.to.id.."\n"
 
@@ -28,7 +28,7 @@ return {
         "^!!tgservice (chat_del_user)$"
        
     },
- run = mohammedboss,
+ run = maestro,
 }
 end
 
