@@ -1,12 +1,11 @@
 --[[ 
-    _____    _        _    _    _____    Dev @lIMyIl 
-   |_   _|__| |__    / \  | | _| ____|   Dev @li_XxX_il
-     | |/ __| '_ \  / _ \ | |/ /  _|     Dev @h_k_a
-     | |\__ \ | | |/ ___ \|   <| |___    Dev @Aram_omar22
-     |_||___/_| |_/_/   \_\_|\_\_____|   Dev @IXX_I_XXI
-              CH > @lTSHAKEl_CH
-كتابه المطور @kasper_dev
---]]
+        _    _       _    _____     _____ ____    ____
+       / \  / \     / \  | ____|___|_   _| /_\ \ / __ \     Đєⱴ 💀: @MaEsTrO_0
+      / / \/ / \   / _ \ |  _| / __| | | | |_\_/| |  | |    Đєⱴ 💀: @devmaestr0
+     / / \ \/ \ \ / ___ \| |___\__ \ | | | | \ \| |__| |    Đєⱴ ฿๏ͳ💀: @iqMaestroBot
+    /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @
+                   Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro
+—]]
 local function check_member_superrem2(cb_extra, success, result)
 local receiver = cb_extra.receiver
 local data = cb_extra.data
@@ -47,7 +46,7 @@ if get_receiver(msg) then
 redis:del('expiretime', get_receiver(msg))
 rem_mutes(msg.to.id)
 superrem2(msg)
-return send_large_msg(get_receiver(msg), 'تـم ✅ انـتـهـاء تـاريـخ الـصـلاحـيـة فـي المـجـمـوعـة👥 ')
+return send_large_msg(get_receiver(msg), 'تم✔️ أنتهاء الصلاحيه في المجموعة🏌 ')
 else
 return
 end
@@ -59,27 +58,27 @@ redis:hset('expires0',msg.to.id,'5')
 end
 if tonumber(timetoexpire) == 1 then
 if redis:hget('expires1',msg.to.id) then return msg end
-send_large_msg(get_receiver(msg), '🗣 خـلـصـن ايـام الـتـفـعـيـل لـهـذه الـمجـموعه \n اطـلـب مـن المـطـور  تـجـديـد الـوقـت👥')
+send_large_msg(get_receiver(msg), '☠ تم انتهاء ايام التفعيل في المجموعة \n اطلب من المطور تجديد الوقت🏌')
 redis:hset('expires1',msg.to.id,'5')
 end
 if tonumber(timetoexpire) == 2 then
 if redis:hget('expires2',msg.to.id) then return msg end
-send_large_msg(get_receiver(msg), '🗣يـومـيـن وتـنـتـهـي صـلاحيـه الـمـجـمـوعـه \n اطلـب مـن المـطـور  تـجديد الوقت👥')
+send_large_msg(get_receiver(msg), '☠يومين وتنتهي صلاحية تفعيل البوت في المجموعة\n اطلب من المطور تجديد الوقت🏌')
 redis:hset('expires2',msg.to.id,'5')
 end
 if tonumber(timetoexpire) == 3 then
 if redis:hget('expires3',msg.to.id) then return msg end
-send_large_msg(get_receiver(msg), '🗣 3  ايـام وتـنـتـهـي صلاحـيـه المـجـمـوعـه \n اطلـب من المـطـور  تجـديـد الـوقـت👥')
+send_large_msg(get_receiver(msg), '☠ 3  ايام وتنتهي صلاحية التفعيل في المجموعة \n اطلب من المطور تجديد الوقت🏌')
 redis:hset('expires3',msg.to.id,'5')
 end
 if tonumber(timetoexpire) == 4 then
 if redis:hget('expires4',msg.to.id) then return msg end
-send_large_msg(get_receiver(msg), '🗣 اربـعـه  ايـام وتـنـتـهـي صلاحـيـه المـجـمـوعـه \n اطلـب من المـطـور  تجـديـد الـوقـت👥')
+send_large_msg(get_receiver(msg), '☠ اربعة ايام وتنتهي صلاحية التفعيل في المجموعة \n اطلب من المطور تجديد الوقت🏌')
 redis:hset('expires4',msg.to.id,'5')
 end
 if tonumber(timetoexpire) == 5 then
 if redis:hget('expires5',msg.to.id) then return msg end
-send_large_msg(get_receiver(msg), '🗣 خـمـسـه  ايـام وتـنـتـهـي صلاحـيـه المـجـمـوعـه \n اطلـب من المـطـور  تجـديـد الـوقـت👥')
+send_large_msg(get_receiver(msg), '☠ خمسة ايام وتنتهي صلاحية التفعيل في المجموعة \n اطلب من المطور تجديد الوقت🏌')
 redis:hset('expires5',msg.to.id,'5')
 end
 end
@@ -92,13 +91,13 @@ local time = os.time()
 local buytime = tonumber(os.time())
 local timeexpire = tonumber(buytime) + (tonumber(matches[2]) * 86400)
 redis:hset('expiretime',get_receiver(msg),timeexpire)
-return " تـم ✅ وضـع مـدة انـتـهاء صلاحـية الكـروب الـى  👥("..matches[2].. ") "
+return " تم ✔️ وضع مدة اانتهاء صلاحية التفعيل في المجموعة الى  🏌("..matches[2].. ") "
 end
 if matches[1]:lower() == 'تجديد'  then
 local expiretime = redis:hget ('expiretime', get_receiver(msg))
-if not expiretime then return ' لـم يـتـم ❎ تـحـديـد التـاريـخ بنـجـاح' else
+if not expiretime then return ' لم يتم ❌ تجديد التاريخ بنجاح' else
 local now = tonumber(os.time())
-return (math.floor((tonumber(expiretime) - tonumber(now)) / 86400) + 1) .. "تـم ✅ تـجديـد مـده الـصـلاحـيـه الـى👥"
+return (math.floor((tonumber(expiretime) - tonumber(now)) / 86400) + 1) .. "تم ✔️تجديد الصلاحية الى🏌"
 end
 end
 
@@ -114,11 +113,3 @@ run = run,
 pre_process = pre_process
 }
 
---[[ 
-    _____    _        _    _    _____    Dev @lIMyIl 
-   |_   _|__| |__    / \  | | _| ____|   Dev @li_XxX_il
-     | |/ __| '_ \  / _ \ | |/ /  _|     Dev @h_k_a
-     | |\__ \ | | |/ ___ \|   <| |___    Dev @Aram_omar22
-     |_||___/_| |_/_/   \_\_|\_\_____|   Dev @IXX_I_XXI
-              CH > @lTSHAKEl_CH
---]]
