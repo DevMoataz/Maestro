@@ -194,8 +194,8 @@ cat << EOF
  $f1   /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @maestr0bot
                    Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro
 EOF
-echo -e "                \e[100m                TSHAKE script           \e[00;37;40m"
-echo -e "               \e[01;34m              CH > @lTSHAKEl_CH  \e[00;37;40m"
+echo -e "                \e[100m                                    \e[00;37;40m"
+echo -e "                \e[01;34m                                  \e[00;37;40m"
 echo ""
 cat << EOF
  $f1       _    _       _    _____     _____ ____    ____
