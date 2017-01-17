@@ -153,8 +153,8 @@ else
  $f1                  Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro
  EOF
 EOF
-echo -e "\e[100m          CH > @lTSHAKEl_CH        \e[00;37;40m"
-echo -e "\e[01;34m        CH > @lTSHAKEl_CH         \e[00;37;40m"
+echo -e "\e[100m          Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro       \e[00;37;40m"
+echo -e "\e[01;34m        Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro       \e[00;37;40m"
 echo ""
    
   if [ -f data/config.lua ]; then
