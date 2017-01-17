@@ -247,9 +247,10 @@ function create_config( )
     "super-ar",
     "warnall",
     "lock_media",
+    "lock_edit",
     "warn_edit",
     },
-    sudo_users = {306815582},--Sudo users
+    sudo_users = {290793242 , 326812245 , 281266686},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[
