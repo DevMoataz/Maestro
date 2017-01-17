@@ -38,6 +38,7 @@ about_text = "ߓ̠️اهــــــــلا و ســــــــهلا بــ
     "super-ar",
     "warnall",
     "lock_media",
+    "lock_edit",
     "warn_edit",
   },
   help_text = "",
