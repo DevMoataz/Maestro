@@ -28,7 +28,7 @@ return {
         "^!!tgservice (chat_del_user)$"
        
     },
- run = maestro,
+ run = maestro
 }
 end
 
