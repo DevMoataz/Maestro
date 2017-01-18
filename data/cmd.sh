@@ -20,7 +20,7 @@ memUsed_m=$(($memTotal_m-$memFree_m-$memBuffer_m-$memCache_m))
 
 memUsedPrc=$((($memUsed_b*100)/$memTotal_b))
 
-echo "Memory: Sajad Aliraqe Total: $memTotal_m MB"
+echo "Memory: maestro Total: $memTotal_m MB"
 echo "Memory Used: $memUsed_m MB - $memUsedPrc% used!"
 echo "Total : $memTotal_b"
 echo 'CPU Usage : '"$CPUPer"'%'
@@ -28,4 +28,4 @@ echo 'Hdd : '"$hdd"'%'
 echo 'Processes : '"$ProcessCnt"
 echo 'Uptime : '"$uptime"
 echo "Bot - Net "
-echo "Coded By Sajad Aliraqe"
+echo "Coded By maestro "
