@@ -3,7 +3,7 @@
        / \  / \     / \  | ____|___|_   _| /_\ \ / __ \     Đєⱴ 💀: @MaEsTrO_0
       / / \/ / \   / _ \ |  _| / __| | | | |_\_/| |  | |    Đєⱴ 💀: @devmaestr0
      / / \ \/ \ \ / ___ \| |___\__ \ | | | | \ \| |__| |    Đєⱴ ฿๏ͳ💀: @iqMaestroBot
-    /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @devmaestr0
+    /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @maestr0bot
                    Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro
 —]]
 local function set_bot_photo(msg, success, result)
@@ -308,6 +308,3 @@ return {
   run = run,
   pre_process = pre_process
 }
---By @imandaneshi :)
---https://github.com/SEEDTEAM/TeleSeed/blob/test/plugins/admin.lua
----Modified by @Rondoozle for supergroups
