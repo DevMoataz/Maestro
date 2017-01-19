@@ -1,11 +1,11 @@
 --[[ 
-    _____    _        _    _    _____    Dev @lIMyIl 
-   |_   _|__| |__    / \  | | _| ____|   Dev @li_XxX_il
-     | |/ __| '_ \  / _ \ | |/ /  _|     Dev @h_k_a
-     | |\__ \ | | |/ ___ \|   <| |___    Dev @Aram_omar22
-     |_||___/_| |_/_/   \_\_|\_\_____|   Dev @IXX_I_XXI
-              CH > @lTSHAKEl_CH
---]]
+        _    _       _    _____     _____ ____    ____
+       / \  / \     / \  | ____|___|_   _| /_\ \ / __ \     Đєⱴ 💀: @MaEsTrO_0
+      / / \/ / \   / _ \ |  _| / __| | | | |_\_/| |  | |    Đєⱴ 💀: @devmaestr0
+     / / \ \/ \ \ / ___ \| |___\__ \ | | | | \ \| |__| |    Đєⱴ ฿๏ͳ💀: @iqMaestroBot
+    /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @maestr0bot
+                   Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro
+—]] 
 local function is_channel_disabled( receiver )
 	if not _config.disabled_channels then
 		return false
@@ -24,13 +24,13 @@ local function enable_channel(receiver)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-return 'الـبـوت بـالـتـاكـيـد تـم ✅ تـشـغـيـله فـي الـمـجـمـوعـه 👥'
+return 'اثكل شوية ولا تلح كتلك البوت مشتغل  👥'
   end
   
   _config.disabled_channels[receiver] = false
 
   save_config()
-  return "تــم ✅ تـشـغـيـل الـبـوت فــي الـمـجـمـوعـه 👥"
+  return "تم تشغيل البوت في المجموعة تونسووووو 👥"
 end
 
 local function disable_channel( receiver )
@@ -41,7 +41,7 @@ local function disable_channel( receiver )
   _config.disabled_channels[receiver] = true
 
   save_config()
-  return "تــم ✅ اطـفـاء الـبـوت فـي الـمــجـمـوعـه 👥 "
+  return "تم ايقاف البوت في المجموعة  👥 "
 end
 
 local function pre_process(msg)
@@ -90,12 +90,3 @@ return {
 	--moderated = true,
 	pre_process = pre_process
 }
-
---[[ 
-    _____    _        _    _    _____    Dev @lIMyIl 
-   |_   _|__| |__    / \  | | _| ____|   Dev @li_XxX_il
-     | |/ __| '_ \  / _ \ | |/ /  _|     Dev @h_k_a
-     | |\__ \ | | |/ ___ \|   <| |___    Dev @Aram_omar22
-     |_||___/_| |_/_/   \_\_|\_\_____|   Dev @IXX_I_XXI
-              CH > @lTSHAKEl_CH
---]]
