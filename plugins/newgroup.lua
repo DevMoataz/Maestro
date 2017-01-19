@@ -3,17 +3,16 @@
        / \  / \     / \  | ____|___|_   _| /_\ \ / __ \     Đєⱴ 💀: @MaEsTrO_0
       / / \/ / \   / _ \ |  _| / __| | | | |_\_/| |  | |    Đєⱴ 💀: @devmaestr0
      / / \ \/ \ \ / ___ \| |___\__ \ | | | | \ \| |__| |    Đєⱴ ฿๏ͳ💀: @iqMaestroBot
-    /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @
+    /_/   \/   \_/_/   \_|_____|___/ |_| |_|  \_\\____/     Đєⱴ ฿๏ͳ💀: @maestr0bot
                    Đєⱴ Ϲḫ₳ͷͷєℓ💀: @DevMaestro
 —]] 
 do
-
 local function create_group(msg)
      -- superuser and admins only (because sudo are always has privilege)
     if is_sudo(msg) or is_realm(msg) and is_admin1(msg) then
 		local group_creator = msg.from.print_name
 		create_group_chat (group_creator, group_name, ok_cb, false)
-		return 'الـمـجـمـوعـهـ👥  [ '..string.gsub(group_name, '_', ' ')..' ] \n تـمـ✔️ صـنـاعـه الـمـجـمـوعـه👥 '
+		return 'المجموعة 👥  [ '..string.gsub(group_name, '_', ' ')..' ] \n تمت صناعة المجموعة👥 '
 	end
 end
 
@@ -1058,5 +1057,3 @@ return {
   run = run
 }
 end
-
-
