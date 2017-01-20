@@ -210,6 +210,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "@DevMaestro",		
     "admin",
     "all",
     "addsudo",
@@ -218,14 +219,18 @@ function create_config( )
     "banbot",
     "banhammer-ar",
     "broadcast",
+    "clean",
     "getfile",
     "helo",
     "helpall",
     "html",
     "info",
+    "injab",
     "invite",
+    "kickall",
     "kickme-ar",
     "leave_ban",
+    "leavebot",
     "lock_bot",
     "lock_user",
     "lock_inl",
@@ -240,9 +245,12 @@ function create_config( )
     "newgroup",
     "plugins-ar",
     "replay",
+    "rideas",
+    "replaybot",
     "robot",
     "save",
     "set_time",
+    "tagall",
     "wlc",
     "super-ar",
     "warnall",
@@ -340,7 +348,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 326812245
+our_id = 326812245 , 281266686
 now = os.time()
 math.randomseed(now)
 started = false
