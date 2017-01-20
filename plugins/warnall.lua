@@ -202,7 +202,7 @@ local h_k_a10 = 'h_a:'..msg.to.id
 local h_k_a11 = 'haaah:'..msg.to.id
 local  h_k_a14 = 'hhaa:'..msg.to.id
 -- -- -- --
-local settings_tshake = 'اعداداتالتحـذير في\n'..msg.to.title..'\n'
+local settings = 'اعداداتالتحـذير في\n'..msg.to.title..'\n'
 .."(📌) #الانلين"..(redis:get(h_k_a9) or "false").."\n"
 .."(📸)#الصور"..(redis:get(hka4) or "false").."\n"
 .."(🔊)#الصوت "..(redis:get(hka5) or "false").."\n\n"
@@ -214,7 +214,7 @@ local settings_tshake = 'اعداداتالتحـذير في\n'..msg.to.title..'
 .."(❌)#التاك "..(redis:get(h_k_a10) or "false").."\n"
 .."(😢)#السمايلات"..(redis:get(h_k_a14) or "false").."\n"
 .."(🏌)#الميديا "..(redis:get(h_k_a11) or "false").."\n"
-return settings_tshake
+return settings
 end
 end
 return {
